@@ -1,0 +1,4 @@
+[package]
+name = "vec_2d"
+version = "0.1.0"
+authors = ["Mikhail Svetov <svmk-work@yandex.ru>"]
