@@ -23,6 +23,12 @@ impl <T>Vec2d<T> {
 		}
 		return result;
 	}
+    fn x_len(&self) -> usize {
+        return self.x_len;
+    }
+    fn y_len(&self) -> usize {
+        return self.y_len;
+    }
 }
 impl<T> Index<(usize,usize)> for Vec2d<T> {
     type Output = T;
