@@ -1,6 +1,6 @@
 [package]
 name = "vec_2d"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Mikhail Svetov <svmk-work@yandex.ru>"]
 description="Simple 2d vector for Rust"
 repository="https://github.com/svmk/vec_2d"
