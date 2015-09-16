@@ -13,7 +13,7 @@ impl <T>Vec2d<T> {
 			y_len: y_len,
 		}
 	}
-	fn calculate_index(&self,index:(usize,usize)) -> Option<usize> {
+	pub fn calculate_index(&self,index:(usize,usize)) -> Option<usize> {
 		let (y_index,x_index) = index;
 		let result;
 		if (x_index < self.x_len) && (y_index < self.y_len) {
@@ -23,10 +23,10 @@ impl <T>Vec2d<T> {
 		}
 		return result;
 	}
-    fn x_len(&self) -> usize {
+    pub fn x_len(&self) -> usize {
         return self.x_len;
     }
-    fn y_len(&self) -> usize {
+    pub fn y_len(&self) -> usize {
         return self.y_len;
     }
 }
